@@ -1,0 +1,45 @@
+.zoom {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  gap: 5px;
+}
+
+.zoom button {
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #ced4da;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.zoomInput {
+  position: relative;
+}
+
+.zoom input {
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  width: 70px;
+  padding: 0 20px 0 10px;
+  line-height: 28px;
+}
+
+.zoom span {
+  position: absolute;
+  right: 10px;
+  line-height: 30px;
+}
+
+.error {
+  color: #e03131;
+  font-size: 12px;
+  position: absolute;
+  top: calc(100% + 8px);
+  white-space: nowrap;
+}
