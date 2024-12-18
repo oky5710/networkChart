@@ -1,0 +1,10 @@
+.tree {
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.tree button {
+  padding: 10px;
+}

@@ -1,0 +1,9 @@
+.networkChart {
+  width: calc(100% - 200px);
+  position: relative;
+  line-height: 0;
+}
+
+.networkChart svg {
+  cursor: move;
+}
